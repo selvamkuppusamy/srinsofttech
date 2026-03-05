@@ -27,6 +27,7 @@ public class BlogPage extends BasePage{
 	@FindBy (xpath = "//article/div[2]/header/h1")
 	public WebElement blog_header;
 	
+	//************* Methods**********//
 	
 	public void click_resources() {
 		resources.click();
